@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">파크인서울</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_github">GitHub</string>
+    <string name="header_title">Test title text</string>
+    <string name="header_subtitle">Test subtitle text</string>
+
+    <string name="open_api_info">- 푸른도시국 공원녹지 정책과\n   (http://data.seoul.go.kr)\n   서울시 공원 현황\n   서울의공원 프로그램명별 공원 프로그램 조회\n\n- 서울의 공원 웹사이트\n   (http://parks.seoul.go.kr/parks)\n\n- 서울시 교통정보과\n   (http://data.seoul.go.kr)\n   서울시 좌표기반 근접 지하철역 정보\n   정류소정보조회 서비스</string>
+    <string name="open_source_info">- SweetAlert\nhttps://github.com/pedant/sweet-alert-dialog\n- Shimmer\nhttps://github.com/RomainPiel/Shimmer-android\n- ResideMenu\nhttps://github.com/SpecialCyCi/AndroidResideMenu\n- PinnedSectionListView\nhttps://github.com/beworker/pinned-section-listview\n- LikeButton\nhttps://github.com/jd-alexander/LikeButton\n- Header2ActionBar\nhttps://github.com/AChep/Header2ActionBar\n- CircularFloatingActionMenu\nhttps://github.com/oguzbilgener/CircularFloatingActionMenu</string>
+</resources>

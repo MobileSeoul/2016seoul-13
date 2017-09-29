@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:padding="7dp">
+            <Button
+                android:id="@+id/btnToggleParkNm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="공원명"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/green_gray_left_toggle_button_background"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+            <Button
+                android:id="@+id/btnToggleParkAddr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" 주소 "
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/green_gray_right_toggle_button_background"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginRight="5dp"/>
+            <EditText
+                android:id="@+id/etParkSearch"
+                style="@style/edittext_green"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionSearch"
+                android:hint="공원명 또는 주소를 입력 해 주세요."/>
+        </LinearLayout>
+        <de.halfbit.pinnedsection.PinnedSectionListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#333333"
+            android:dividerHeight="1px" />
+
+
+    </LinearLayout>
+</LinearLayout>

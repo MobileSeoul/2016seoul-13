@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@android:id/background"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/android_spaces_large"
+        android:layout_marginEnd="@dimen/android_spaces"
+        android:layout_marginLeft="@dimen/android_spaces_large"
+        android:layout_marginRight="@dimen/android_spaces"
+        android:layout_marginBottom="5dp"
+        android:gravity="right">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <com.like.LikeButton
+                app:liked="false"
+                android:id="@+id/btnStar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:icon_size="25dp"
+                app:icon_type="star"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Header.TitleText"/>
+            <ImageButton
+                android:id="@+id/btnParkInfo"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_park_info"/>
+        </LinearLayout>
+
+        <com.jjh.parkinseoul.widget.CTextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/Header.SubTitleText" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:actionBarSize"
+        android:background="@drawable/header_ab_shadow" />
+
+</FrameLayout>

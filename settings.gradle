@@ -1,0 +1,8 @@
+include ':app', ':ResideMenu', ':Header2ActionBar', ':PinnedSectionListView', ':LikeButton', ':CircularFloatingActionMenu', ':SweetAlert', ':Shimmer'
+project(':ResideMenu').projectDir = new File('import/ResideMenu')
+project(':Header2ActionBar').projectDir = new File('import/Header2ActionBar')
+project(':PinnedSectionListView').projectDir = new File('import/PinnedSectionListView')
+project(':LikeButton').projectDir = new File('import/LikeButton')
+project(':CircularFloatingActionMenu').projectDir = new File('import/CircularFloatingActionMenu')
+project(':SweetAlert').projectDir = new File('import/SweetAlert')
+project(':Shimmer').projectDir = new File('import/Shimmer')

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/import/CircularFloatingActionMenu" />
+            <option value="$PROJECT_DIR$/import/Header2ActionBar" />
+            <option value="$PROJECT_DIR$/import/LikeButton" />
+            <option value="$PROJECT_DIR$/import/PinnedSectionListView" />
+            <option value="$PROJECT_DIR$/import/ResideMenu" />
+            <option value="$PROJECT_DIR$/import/Shimmer" />
+            <option value="$PROJECT_DIR$/import/SweetAlert" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/import/CircularFloatingActionMenu" />
+            <option value="$PROJECT_DIR$/import/Header2ActionBar" />
+            <option value="$PROJECT_DIR$/import/LikeButton" />
+            <option value="$PROJECT_DIR$/import/PinnedSectionListView" />
+            <option value="$PROJECT_DIR$/import/ResideMenu" />
+            <option value="$PROJECT_DIR$/import/Shimmer" />
+            <option value="$PROJECT_DIR$/import/SweetAlert" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

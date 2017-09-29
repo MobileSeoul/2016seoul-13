@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_top">
+
+
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/titlebar_menu_selector"
+                    android:id="@+id/title_bar_left_menu"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"/>
+            <TextView
+                    android:id="@+id/tvActivityTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/color_green_thick"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+        </FrameLayout>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3.5dp"
+                android:background="@color/color_green_little_thick"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/main_fragment"/>
+        <ProgressBar
+            android:id="@+id/progressTree"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:indeterminateDuration="900"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_green"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tvLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:text="Loading..."
+            android:textStyle="bold"
+            android:layout_below="@id/progressTree"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>
